@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RMO Consultancy | Internal Audit, Risk, Compliance & Data Protection Advisory, Nairobi</title>
+<meta name="description" content="RMO Consultancy is a Nairobi-based advisory firm specialising in internal audit, enterprise risk, governance, regulatory compliance and data protection. Founded and led by Robert Ombego, CPA, CFIP.">
+<meta name="theme-color" content="#0b1b3a">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="RMO Consultancy | Risk, Audit, Compliance & Data Protection Advisory">
+<meta property="og:description" content="Proactive risk management and governance solutions for sustainable growth. Internal audit, enterprise risk, compliance and data protection advisory in Nairobi, Kenya.">
+<meta property="og:locale" content="en_KE">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="RMO Consultancy | Risk, Audit, Compliance & Data Protection Advisory">
+<meta name="twitter:description" content="Proactive risk management and governance solutions for sustainable growth. Based in Nairobi, Kenya.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --navy-950:#071229;
+  --navy-900:#0b1b3a;
+  --navy-800:#12274f;
+  --navy-700:#1c3563;
+  --navy-600:#2a4676;
+  --gold-500:#c9a24a;
+  --gold-400:#d9b765;
+  --gold-300:#e6cd92;
+  --gold-600:#a8832f;
+  --neutral-50:#f7f6f2;
+  --neutral-100:#eeece5;
+  --neutral-200:#dedbd1;
+  --neutral-500:#6b7280;
+  --neutral-700:#3b4350;
+  --white:#ffffff;
+  --text:#1b2433;
+  --muted:#52607a;
+  --radius:6px;
+  --radius-lg:10px;
+  --shadow-sm:0 1px 2px rgba(11,27,58,.06),0 2px 8px rgba(11,27,58,.05);
+  --shadow-md:0 6px 24px rgba(11,27,58,.10);
+  --header-h:72px;
+  --maxw:1160px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  font-family:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  color:var(--text);
+  background:var(--neutral-50);
+  line-height:1.65;
+  font-size:16px;
+  overflow-x:hidden;
+}
+img,svg{max-width:100%}
+a{color:inherit}
+h1,h2,h3,h4{line-height:1.2;margin:0 0 .5em;color:var(--navy-900);letter-spacing:-.01em}
+p{margin:0 0 1em}
+ul{margin:0;padding:0;list-style:none}
+section[id]{scroll-margin-top:calc(var(--header-h) + 12px)}
+.container{width:100%;max-width:var(--maxw);margin:0 auto;padding:0 24px}
+.skip-link{
+  position:absolute;left:12px;top:-60px;background:var(--gold-500);color:var(--navy-950);
+  padding:10px 16px;border-radius:var(--radius);font-weight:700;z-index:200;text-decoration:none;
+}
+.skip-link:focus{top:12px}
+
+:focus-visible{outline:3px solid var(--gold-400);outline-offset:3px;border-radius:3px}
+
+/* Buttons */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  font:inherit;font-weight:700;font-size:.95rem;text-decoration:none;cursor:pointer;
+  padding:13px 24px;border-radius:var(--radius);border:2px solid transparent;
+  transition:background .2s,color .2s,border-color .2s,transform .2s,box-shadow .2s;
+  min-height:46px;
+}
+.btn-gold{background:var(--gold-500);color:var(--navy-950)}
+.btn-gold:hover{background:var(--gold-400);transform:translateY(-1px);box-shadow:0 6px 18px rgba(201,162,74,.35)}
+.btn-outline{border-color:rgba(255,255,255,.35);color:var(--white);background:transparent}
+.btn-outline:hover{border-color:var(--gold-400);color:var(--gold-300)}
+.btn-navy{background:var(--navy-900);color:var(--white)}
+.btn-navy:hover{background:var(--navy-700)}
+.btn-sm{padding:9px 18px;min-height:40px;font-size:.88rem}
+
+/* Header */
+.site-header{
+  position:fixed;inset:0 0 auto 0;height:var(--header-h);z-index:100;
+  background:rgba(7,18,41,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  border-bottom:1px solid rgba(201,162,74,.22);
+}
+.header-inner{height:100%;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--white);font-weight:800;letter-spacing:-.01em;font-size:1.08rem}
+.monogram{
+  width:40px;height:40px;border-radius:var(--radius);display:grid;place-items:center;
+  background:linear-gradient(145deg,var(--gold-400),var(--gold-600));color:var(--navy-950);
+  font-weight:800;font-size:1.15rem;flex:none;
+}
+.brand span.light{font-weight:500;color:var(--gold-300)}
+.nav-list{display:flex;align-items:center;gap:6px}
+.nav-list a.nav-link{
+  display:block;padding:10px 14px;text-decoration:none;color:rgba(255,255,255,.86);
+  font-weight:600;font-size:.92rem;border-radius:var(--radius);transition:color .2s,background .2s;
+}
+.nav-list a.nav-link:hover{color:var(--gold-300);background:rgba(255,255,255,.05)}
+.nav-cta{margin-left:10px}
+.menu-toggle{
+  display:none;background:transparent;border:1px solid rgba(255,255,255,.3);color:var(--white);
+  width:46px;height:46px;border-radius:var(--radius);cursor:pointer;align-items:center;justify-content:center;
+}
+.menu-toggle .bars{position:relative;width:20px;height:14px}
+.menu-toggle .bars span{position:absolute;left:0;width:100%;height:2px;background:currentColor;border-radius:2px;transition:transform .25s,opacity .2s,top .25s}
+.menu-toggle .bars span:nth-child(1){top:0}
+.menu-toggle .bars span:nth-child(2){top:6px}
+.menu-toggle .bars span:nth-child(3){top:12px}
+.menu-toggle[aria-expanded="true"] .bars span:nth-child(1){top:6px;transform:rotate(45deg)}
+.menu-toggle[aria-expanded="true"] .bars span:nth-child(2){opacity:0}
+.menu-toggle[aria-expanded="true"] .bars span:nth-child(3){top:6px;transform:rotate(-45deg)}
+
+/* Hero */
+.hero{
+  position:relative;color:var(--white);padding:calc(var(--header-h) + 72px) 0 72px;
+  background:
+    radial-gradient(900px 420px at 85% 10%,rgba(201,162,74,.16),transparent 60%),
+    linear-gradient(180deg,var(--navy-950),var(--navy-900));
+  overflow:hidden;
+}
+.hero::before{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:
+    linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);
+  background-size:48px 48px;
+  -webkit-mask-image:linear-gradient(180deg,#000 30%,transparent 100%);
+  mask-image:linear-gradient(180deg,#000 30%,transparent 100%);
+}
+.hero::after{
+  content:"";position:absolute;left:0;right:0;bottom:0;height:3px;
+  background:linear-gradient(90deg,transparent,var(--gold-500),transparent);
+}
+.hero .container{position:relative;z-index:1}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:10px;color:var(--gold-400);font-weight:700;
+  font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:18px;
+}
+.eyebrow::before{content:"";width:28px;height:2px;background:var(--gold-500)}
+.hero h1{
+  color:var(--white);font-size:clamp(2rem,5vw,3.5rem);font-weight:800;max-width:860px;margin-bottom:20px;
+}
+.hero h1 em{font-style:normal;color:var(--gold-400)}
+.hero-lead{font-size:clamp(1.02rem,1.6vw,1.2rem);color:rgba(255,255,255,.82);max-width:680px;margin-bottom:28px}
+.highlights{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:32px}
+.highlights li{
+  display:inline-flex;align-items:center;gap:8px;padding:9px 14px;border-radius:var(--radius);
+  background:rgba(255,255,255,.06);border:1px solid rgba(201,162,74,.35);font-weight:600;font-size:.9rem;
+}
+.highlights svg{width:18px;height:18px;color:var(--gold-400);flex:none}
+.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:36px}
+.principal{
+  display:flex;align-items:center;gap:16px;padding:16px 20px;max-width:720px;
+  background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-left:3px solid var(--gold-500);
+  border-radius:var(--radius);margin-bottom:28px;
+}
+.principal .monogram{width:48px;height:48px;font-size:1rem}
+.principal p{margin:0;font-size:.95rem;color:rgba(255,255,255,.85)}
+.principal strong{color:var(--white)}
+.stats{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,.12);
+  border:1px solid rgba(255,255,255,.12);border-radius:var(--radius);overflow:hidden;max-width:720px;
+}
+.stat{background:rgba(7,18,41,.7);padding:18px 20px}
+.stat b{display:block;font-size:1.5rem;color:var(--gold-400);font-weight:800;line-height:1.2}
+.stat span{font-size:.82rem;color:rgba(255,255,255,.75)}
+
+/* Sections */
+.section{padding:88px 0}
+.section-alt{background:var(--white)}
+.section-head{max-width:720px;margin-bottom:48px}
+.section-head .eyebrow{color:var(--gold-600)}
+.section-head .eyebrow::before{background:var(--gold-500)}
+.section-head h2{font-size:clamp(1.65rem,3.4vw,2.4rem);font-weight:800}
+.section-head p{color:var(--muted);font-size:1.05rem;margin:0}
+
+/* About */
+.about-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:start}
+.about-copy p{color:var(--neutral-700)}
+.mission{
+  margin:28px 0 0;padding:24px 26px;background:var(--navy-900);color:var(--white);
+  border-radius:var(--radius-lg);position:relative;
+}
+.mission .label{display:block;color:var(--gold-400);font-weight:700;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:10px}
+.mission blockquote{margin:0;font-size:1.05rem;line-height:1.6;font-weight:500}
+.dp-card{
+  background:var(--white);border:1px solid var(--neutral-200);border-top:4px solid var(--gold-500);
+  border-radius:var(--radius-lg);padding:28px;box-shadow:var(--shadow-sm);
+}
+.dp-card h3{font-size:1.2rem;display:flex;align-items:center;gap:10px}
+.dp-card h3 svg{width:24px;height:24px;color:var(--gold-600);flex:none}
+.check-list li{display:flex;gap:12px;padding:11px 0;border-top:1px solid var(--neutral-100);color:var(--neutral-700);font-size:.95rem}
+.check-list li:first-child{border-top:0}
+.check-list svg{width:20px;height:20px;color:var(--gold-600);flex:none;margin-top:2px}
+
+/* Services */
+.service-featured{
+  position:relative;background:linear-gradient(160deg,var(--navy-950),var(--navy-800));color:var(--white);
+  border-radius:var(--radius-lg);padding:40px;margin-bottom:28px;border:1px solid rgba(201,162,74,.45);
+  box-shadow:var(--shadow-md);overflow:hidden;
+}
+.service-featured::before{
+  content:"";position:absolute;inset:0;pointer-events:none;opacity:.6;
+  background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);
+  background-size:40px 40px;
+}
+.service-featured>*{position:relative}
+.badge-gold{
+  display:inline-block;background:var(--gold-500);color:var(--navy-950);font-weight:800;font-size:.72rem;
+  letter-spacing:.1em;text-transform:uppercase;padding:5px 10px;border-radius:3px;margin-bottom:16px;
+}
+.service-featured h3{color:var(--white);font-size:clamp(1.4rem,2.6vw,1.9rem);display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.service-featured h3 svg{width:32px;height:32px;color:var(--gold-400);flex:none}
+.service-featured .lead{color:rgba(255,255,255,.85);max-width:760px;font-size:1.05rem;margin-bottom:28px}
+.dp-areas{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.dp-area{
+  background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:var(--radius);padding:20px;
+  transition:border-color .2s,background .2s;
+}
+.dp-area:hover{border-color:var(--gold-400);background:rgba(255,255,255,.09)}
+.dp-area h4{color:var(--gold-300);font-size:1.02rem;margin-bottom:8px}
+.dp-area p{margin:0;font-size:.93rem;color:rgba(255,255,255,.8)}
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{
+  background:var(--white);border:1px solid var(--neutral-200);border-radius:var(--radius-lg);padding:28px;
+  box-shadow:var(--shadow-sm);transition:transform .25s,box-shadow .25s,border-color .25s;
+}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow-md);border-color:var(--gold-400)}
+.icon-box{
+  width:48px;height:48px;border-radius:var(--radius);display:grid;place-items:center;
+  background:var(--navy-900);color:var(--gold-400);margin-bottom:18px;
+}
+.icon-box svg{width:24px;height:24px}
+.card h3{font-size:1.12rem}
+.card p{margin:0;color:var(--muted);font-size:.95rem}
+
+/* Credentials */
+.cred-layout{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px;align-items:start}
+.leader-card{
+  background:var(--navy-900);color:var(--white);border-radius:var(--radius-lg);padding:34px;
+  border-top:4px solid var(--gold-500);box-shadow:var(--shadow-md);
+}
+.leader-card .monogram{width:64px;height:64px;font-size:1.3rem;margin-bottom:18px}
+.leader-card h3{color:var(--white);font-size:1.5rem;margin-bottom:4px}
+.leader-card .role{color:var(--gold-400);font-weight:700;margin-bottom:16px}
+.leader-card p{color:rgba(255,255,255,.82);margin:0}
+.cred-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.cred{
+  background:var(--white);border:1px solid var(--neutral-200);border-radius:var(--radius);padding:16px 18px;
+  display:flex;gap:14px;align-items:flex-start;box-shadow:var(--shadow-sm);
+}
+.cred .seal{
+  flex:none;width:40px;height:40px;border-radius:var(--radius);background:var(--neutral-100);
+  color:var(--navy-900);display:grid;place-items:center;
+}
+.cred .seal svg{width:22px;height:22px}
+.cred strong{display:block;color:var(--navy-900);font-size:.98rem;line-height:1.35}
+.cred span.desc{display:block;color:var(--muted);font-size:.88rem;line-height:1.45;margin-top:2px}
+.cred.dp{border-color:var(--gold-500);background:linear-gradient(180deg,#fffdf6,var(--white));box-shadow:0 0 0 1px rgba(201,162,74,.25),var(--shadow-sm)}
+.cred.dp .seal{background:var(--navy-900);color:var(--gold-400)}
+.tag-dp{
+  display:inline-block;margin-top:8px;font-size:.68rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--gold-600);background:rgba(201,162,74,.14);padding:3px 8px;border-radius:3px;
+}
+.dp-link-note{
+  margin-top:18px;padding:14px 16px;border-left:3px solid var(--gold-500);background:rgba(201,162,74,.1);
+  border-radius:0 var(--radius) var(--radius) 0;font-size:.92rem;color:var(--neutral-700);
+}
+
+/* Approach */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;counter-reset:step}
+.step{
+  position:relative;background:var(--white);border:1px solid var(--neutral-200);border-radius:var(--radius-lg);
+  padding:56px 24px 26px;box-shadow:var(--shadow-sm);counter-increment:step;
+}
+.step::before{
+  content:counter(step,decimal-leading-zero);position:absolute;top:18px;left:24px;
+  font-weight:800;font-size:1.6rem;color:var(--gold-500);line-height:1;
+}
+.step::after{content:"";position:absolute;top:0;left:0;width:100%;height:3px;background:linear-gradient(90deg,var(--gold-500),transparent)}
+.step h3{font-size:1.08rem}
+.step p{margin:0;color:var(--muted);font-size:.95rem}
+
+/* Contact */
+.contact{
+  background:linear-gradient(180deg,var(--navy-900),var(--navy-950));color:var(--white);position:relative;overflow:hidden;
+}
+.contact::before{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);
+  background-size:48px 48px;
+}
+.contact .container{position:relative}
+.contact .section-head h2{color:var(--white)}
+.contact .section-head p{color:rgba(255,255,255,.78)}
+.contact .section-head .eyebrow{color:var(--gold-400)}
+.contact-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:40px;align-items:start}
+.contact-info{display:grid;gap:16px}
+.info-card{
+  background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:var(--radius-lg);padding:22px;
+}
+.info-card h3{color:var(--gold-300);font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;margin-bottom:12px}
+.info-card .loc{display:flex;align-items:center;gap:10px;font-weight:600}
+.info-card .loc svg{width:22px;height:22px;color:var(--gold-400);flex:none}
+.phone-block+.phone-block{margin-top:18px;padding-top:18px;border-top:1px solid rgba(255,255,255,.12)}
+.phone-number{display:block;font-size:1.2rem;font-weight:800;color:var(--white);text-decoration:none}
+.phone-number:hover{color:var(--gold-300)}
+.phone-note{display:block;font-size:.85rem;color:rgba(255,255,255,.7);margin:2px 0 12px}
+.phone-actions{display:flex;flex-wrap:wrap;gap:10px}
+.btn-wa{background:#25d366;color:#06301a}
+.btn-wa:hover{background:#3be07b;transform:translateY(-1px)}
+.btn-ghost{border-color:rgba(255,255,255,.35);color:var(--white);background:transparent}
+.btn-ghost:hover{border-color:var(--gold-400);color:var(--gold-300)}
+
+.form-card{background:var(--white);color:var(--text);border-radius:var(--radius-lg);padding:32px;box-shadow:var(--shadow-md);border-top:4px solid var(--gold-500)}
+.form-card h3{font-size:1.3rem}
+.form-card .sub{color:var(--muted);font-size:.93rem;margin-bottom:22px}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.field{display:flex;flex-direction:column;gap:6px}
+.field.full{grid-column:1/-1}
+.field label{font-weight:700;font-size:.88rem;color:var(--navy-900)}
+.field label .req{color:#b4232a}
+.field label .opt{font-weight:500;color:var(--neutral-500)}
+.field input,.field select,.field textarea{
+  font:inherit;font-size:1rem;color:var(--text);background:var(--white);width:100%;
+  padding:12px 14px;border:1.5px solid var(--neutral-200);border-radius:var(--radius);min-height:46px;
+  transition:border-color .2s,box-shadow .2s;
+}
+.field textarea{min-height:130px;resize:vertical}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--gold-500);box-shadow:0 0 0 3px rgba(201,162,74,.3)}
+.field.invalid input,.field.invalid select,.field.invalid textarea{border-color:#b4232a}
+.error-msg{display:none;color:#b4232a;font-size:.82rem;font-weight:600}
+.field.invalid .error-msg{display:block}
+.form-actions{margin-top:20px;display:flex;flex-direction:column;gap:12px}
+.form-actions .btn{width:100%}
+.form-note{font-size:.82rem;color:var(--neutral-500);margin:0}
+.form-status{
+  display:none;margin-top:18px;padding:14px 16px;border-radius:var(--radius);
+  background:#eef7f0;border:1px solid #a9d3b3;color:#1d4d2b;font-size:.93rem;
+}
+.form-status.show{display:block}
+.form-status a{font-weight:700;color:#14532d}
+
+/* Footer */
+.site-footer{background:var(--navy-950);color:rgba(255,255,255,.78);padding:60px 0 28px;border-top:3px solid var(--gold-500)}
+.footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1.2fr;gap:40px;margin-bottom:40px}
+.site-footer h3{color:var(--gold-300);font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px}
+.site-footer p{font-size:.93rem}
+.footer-links li{margin-bottom:8px}
+.footer-links a,.footer-contact a{text-decoration:none;color:rgba(255,255,255,.82)}
+.footer-links a:hover,.footer-contact a:hover{color:var(--gold-300);text-decoration:underline}
+.footer-contact li{margin-bottom:8px;font-size:.93rem}
+.founder-line{color:var(--gold-300);font-weight:600}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.12);padding-top:22px;font-size:.85rem;color:rgba(255,255,255,.6)}
+
+/* Floating WhatsApp */
+.wa-float{
+  position:fixed;right:20px;bottom:20px;z-index:90;width:58px;height:58px;border-radius:50%;
+  background:#25d366;color:#06301a;display:grid;place-items:center;
+  box-shadow:0 6px 20px rgba(0,0,0,.3);transition:transform .2s,box-shadow .2s;text-decoration:none;
+}
+.wa-float:hover{transform:scale(1.07);box-shadow:0 10px 26px rgba(0,0,0,.35)}
+.wa-float svg{width:30px;height:30px}
+
+/* Reveal animation (only when JS is active and motion is allowed) */
+@media (prefers-reduced-motion:no-preference){
+  .js .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+  .js .reveal.in{opacity:1;transform:none}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}
+}
+
+/* Responsive */
+@media (max-width:1020px){
+  .services-grid{grid-template-columns:repeat(2,1fr)}
+  .steps{grid-template-columns:repeat(2,1fr)}
+  .about-grid,.cred-layout,.contact-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .footer-grid>div:first-child{grid-column:1/-1}
+}
+@media (max-width:860px){
+  .menu-toggle{display:inline-flex}
+  .nav{
+    position:fixed;top:var(--header-h);left:0;right:0;background:var(--navy-950);
+    border-bottom:2px solid var(--gold-500);padding:12px 24px 22px;
+    max-height:calc(100vh - var(--header-h));overflow-y:auto;
+    visibility:hidden;opacity:0;transform:translateY(-8px);
+    transition:opacity .25s,transform .25s,visibility .25s;
+  }
+  .nav.open{visibility:visible;opacity:1;transform:none}
+  .nav-list{flex-direction:column;align-items:stretch;gap:2px}
+  .nav-list a.nav-link{padding:14px 12px;font-size:1rem;border-bottom:1px solid rgba(255,255,255,.08);border-radius:0}
+  .nav-cta{margin:14px 0 0}
+  .nav-cta .btn{width:100%}
+}
+@media (max-width:640px){
+  .container{padding:0 18px}
+  .section{padding:64px 0}
+  .hero{padding:calc(var(--header-h) + 44px) 0 56px}
+  .stats{grid-template-columns:1fr}
+  .dp-areas,.services-grid,.steps,.cred-grid,.form-grid,.footer-grid{grid-template-columns:1fr}
+  .service-featured{padding:26px 20px}
+  .form-card{padding:24px 18px}
+  .hero-actions .btn{width:100%}
+  .principal{align-items:flex-start}
+  .brand{font-size:1rem}
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="#home" aria-label="RMO Consultancy, home">
+      <span class="monogram" aria-hidden="true">R</span>
+      <span>RMO <span class="light">Consultancy</span></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Open menu">
+      <span class="bars" aria-hidden="true"><span></span><span></span><span></span></span>
+    </button>
+    <nav class="nav" id="siteNav" aria-label="Primary">
+      <ul class="nav-list">
+        <li><a class="nav-link" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#services">Services</a></li>
+        <li><a class="nav-link" href="#credentials">Credentials</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-cta"><a class="btn btn-gold btn-sm" href="#contact">Consult Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero" id="home" aria-labelledby="hero-title">
+  <div class="container">
+    <p class="eyebrow">Internal Audit, Risk &amp; Compliance Advisory</p>
+    <h1 id="hero-title">Proactive Risk Management &amp; Governance Solutions for <em>Sustainable Growth</em></h1>
+    <p class="hero-lead">Helping organizations strengthen internal controls, prevent losses, safeguard assets, and operate with complete integrity.</p>
+
+    <ul class="highlights" aria-label="Key focus areas">
+      <li>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.2 8-8 9-4.8-1-8-4.5-8-9V6l8-3z"/><path d="M12 8v4"/><circle cx="12" cy="15" r=".6" fill="currentColor"/></svg>
+        Risk Management
+      </li>
+      <li>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20h16"/><path d="M6 20V10M12 20V4M18 20v-7"/></svg>
+        Compliance &amp; Governance
+      </li>
+      <li>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 018 0v3"/></svg>
+        Data Protection &amp; Privacy Advisory
+      </li>
+    </ul>
+
+    <div class="hero-actions">
+      <a class="btn btn-gold" href="#contact">Request a Consultation</a>
+      <a class="btn btn-outline" href="#services">Explore Our Services</a>
+    </div>
+
+    <div class="principal">
+      <span class="monogram" aria-hidden="true">RO</span>
+      <p><strong>Robert Ombego</strong> — Principal Consultant &amp; Founder · CPA, CFIP, ISO Lead Auditor</p>
+    </div>
+
+    <div class="stats" role="list">
+      <div class="stat" role="listitem"><b>7+ Years</b><span>Industry Experience</span></div>
+      <div class="stat" role="listitem"><b>CPA · CFIP</b><span>Certified Professional</span></div>
+      <div class="stat" role="listitem"><b>ISO/IEC</b><span>Lead Auditor</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section section-alt" id="about" aria-labelledby="about-title">
+  <div class="container about-grid">
+    <div class="about-copy reveal">
+      <div class="section-head" style="margin-bottom:24px">
+        <p class="eyebrow">About RMO Consultancy</p>
+        <h2 id="about-title">Assurance you can build your future on.</h2>
+      </div>
+      <p>RMO Consultancy is based in Nairobi and specialises in internal audit, enterprise risk, governance, regulatory compliance, and data protection. The firm was founded and is led by Robert Ombego.</p>
+      <p>Robert brings over 7 years of specialised expertise in internal audit, risk management, and forensics, and personally leads engagements.</p>
+      <p>His Master's in Cybersecurity &amp; Digital Forensics and ISO/IEC 27001 Lead Auditor certification connect directly to data protection, information security management, privacy compliance, and digital trust.</p>
+
+      <figure class="mission" style="margin-left:0;margin-right:0">
+        <span class="label">Our Mission</span>
+        <blockquote>“To empower businesses to operate with integrity, manage risks proactively, strengthen governance, and achieve sustainable growth through effective assurance and compliance solutions.”</blockquote>
+      </figure>
+    </div>
+
+    <aside class="dp-card reveal" aria-labelledby="dp-trust-title">
+      <h3 id="dp-trust-title">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.2 8-8 9-4.8-1-8-4.5-8-9V6l8-3z"/><path d="M9 12l2 2 4-4"/></svg>
+        Data Protection &amp; Digital Trust
+      </h3>
+      <ul class="check-list">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg><span>Master's in Cybersecurity &amp; Digital Forensics</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg><span>ISO/IEC 27001 Lead Auditor — Information Security</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg><span>Kenya Data Protection Act / ODPC and GDPR readiness</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg><span>DPIAs and data governance frameworks</span></li>
+      </ul>
+    </aside>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section" id="services" aria-labelledby="services-title">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Our Services</p>
+      <h2 id="services-title">End-to-end assurance &amp; advisory</h2>
+      <p>Practical expertise across risk, control, compliance and data protection.</p>
+    </div>
+
+    <article class="service-featured reveal" aria-labelledby="dp-service-title">
+      <span class="badge-gold">Featured Service</span>
+      <h3 id="dp-service-title">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 018 0v3"/><circle cx="12" cy="15.5" r="1" fill="currentColor"/></svg>
+        Data Protection &amp; Privacy Compliance
+      </h3>
+      <p class="lead">Helping organisations meet their data protection obligations and turn privacy into demonstrable digital trust — from statutory registration to board-level accountability.</p>
+      <div class="dp-areas">
+        <div class="dp-area">
+          <h4>Kenya Data Protection Act &amp; ODPC</h4>
+          <p>Registration, compliance audits, data officer support and reporting obligations under the Kenya Data Protection Act and the ODPC.</p>
+        </div>
+        <div class="dp-area">
+          <h4>GDPR Readiness</h4>
+          <p>Gap analysis and readiness roadmaps for EU-facing processing, lawful bases, consent and cross-border transfers.</p>
+        </div>
+        <div class="dp-area">
+          <h4>DPIAs</h4>
+          <p>Data privacy impact assessments for high-risk processing, new systems, profiling and third-party vendors.</p>
+        </div>
+        <div class="dp-area">
+          <h4>Data Governance Frameworks</h4>
+          <p>Data mapping, retention schedules, privacy policies and accountability structures that stand up to audit.</p>
+        </div>
+      </div>
+    </article>
+
+    <div class="services-grid">
+      <article class="card reveal">
+        <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4h6l1 2h3v14H5V6h3l1-2z"/><path d="M9 13l2 2 4-4"/></svg></div>
+        <h3>Risk-Based Internal Auditing</h3>
+        <p>Evaluating operational processes, identifying efficiency gaps, and optimizing control environments.</p>
+      </article>
+      <article class="card reveal">
+        <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 16H3L12 3z"/><path d="M12 10v4"/><circle cx="12" cy="17" r=".6" fill="currentColor"/></svg></div>
+        <h3>Enterprise Risk Management (ERM)</h3>
+        <p>Proactive risk identification, risk matrix framework development, and mitigation strategies.</p>
+      </article>
+      <article class="card reveal">
+        <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6"/><path d="M15 15l6 6"/><path d="M8 10.5h5"/></svg></div>
+        <h3>Forensic Investigations &amp; Fraud Prevention</h3>
+        <p>Fraud risk assessments, loss prevention frameworks, and detailed forensic reviews.</p>
+      </article>
+      <article class="card reveal">
+        <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h8l4 4v14H7z"/><path d="M15 3v4h4"/><path d="M10 12h6M10 16h6"/></svg></div>
+        <h3>Regulatory &amp; AML/CFT Compliance</h3>
+        <p>Strict adherence to statutory obligations, Anti-Money Laundering and Countering Financing of Terrorism frameworks.</p>
+      </article>
+      <article class="card reveal">
+        <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18M5 21V10M19 21V10M9 21V10M15 21V10"/><path d="M12 3l9 5H3l9-5z"/></svg></div>
+        <h3>Governance &amp; Policy Advisory</h3>
+        <p>Board advisory, corporate governance reviews, and custom policy/SOP development.</p>
+      </article>
+      <article class="card reveal">
+        <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 12l3 3 5-6"/></svg></div>
+        <h3>Internal Control Reviews</h3>
+        <p>Comprehensive assessment of financial and operational controls to safeguard organizational assets.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CREDENTIALS -->
+<section class="section section-alt" id="credentials" aria-labelledby="cred-title">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Leadership &amp; Credentials</p>
+      <h2 id="cred-title">Led personally, qualified rigorously.</h2>
+    </div>
+    <div class="cred-layout">
+      <div class="reveal">
+        <div class="leader-card">
+          <div class="monogram" aria-hidden="true">RO</div>
+          <h3>Robert Ombego</h3>
+          <p class="role">Principal Consultant &amp; Founder</p>
+          <p>Over 7 years of specialised expertise in internal audit, enterprise risk management and forensic investigations. Robert leads every engagement personally and reports directly to boards, audit committees and executive management.</p>
+        </div>
+        <p class="dp-link-note"><strong>Data Protection &amp; Privacy:</strong> the Master's in Cybersecurity &amp; Digital Forensics and the ISO/IEC 27001 Lead Auditor credential (highlighted) underpin the firm's data protection and privacy compliance work.</p>
+      </div>
+
+      <ul class="cred-grid reveal" aria-label="Professional credentials">
+        <li class="cred">
+          <span class="seal" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="5"/><path d="M9 13.5L8 21l4-2 4 2-1-7.5"/></svg></span>
+          <div><strong>CPA</strong><span class="desc">Certified Public Accountant</span></div>
+        </li>
+        <li class="cred">
+          <span class="seal" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="5"/><path d="M9 13.5L8 21l4-2 4 2-1-7.5"/></svg></span>
+          <div><strong>CFIP</strong><span class="desc">Certified Forensic Investigation Professional</span></div>
+        </li>
+        <li class="cred">
+          <span class="seal" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-5 9 5-9 5-9-5z"/><path d="M7 11.5V16c0 1 2.2 2.5 5 2.5s5-1.5 5-2.5v-4.5"/></svg></span>
+          <div><strong>B.Com</strong><span class="desc">Bachelor of Commerce</span></div>
+        </li>
+        <li class="cred dp">
+          <span class="seal" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-5 9 5-9 5-9-5z"/><path d="M7 11.5V16c0 1 2.2 2.5 5 2.5s5-1.5 5-2.5v-4.5"/></svg></span>
+          <div><strong>Master's</strong><span class="desc">Cybersecurity &amp; Digital Forensics</span><span class="tag-dp">Data Protection &amp; Privacy</span></div>
+        </li>
+        <li class="cred dp">
+          <span class="seal" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.2 8-8 9-4.8-1-8-4.5-8-9V6l8-3z"/><path d="M9 12l2 2 4-4"/></svg></span>
+          <div><strong>ISO/IEC 27001</strong><span class="desc">Lead Auditor — Information Security Management</span><span class="tag-dp">Data Protection &amp; Privacy</span></div>
+        </li>
+        <li class="cred">
+          <span class="seal" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.2 8-8 9-4.8-1-8-4.5-8-9V6l8-3z"/><path d="M9 12l2 2 4-4"/></svg></span>
+          <div><strong>ISO/IEC 9001</strong><span class="desc">Lead Auditor — Quality Management</span></div>
+        </li>
+        <li class="cred">
+          <span class="seal" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.2 8-8 9-4.8-1-8-4.5-8-9V6l8-3z"/><path d="M9 12l2 2 4-4"/></svg></span>
+          <div><strong>ISO/IEC 31000</strong><span class="desc">Lead Auditor — Risk Management</span></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- APPROACH -->
+<section class="section" id="approach" aria-labelledby="approach-title">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">How We Work</p>
+      <h2 id="approach-title">Our strategic approach</h2>
+    </div>
+    <ol class="steps" style="list-style:none;margin:0;padding:0">
+      <li class="step reveal">
+        <h3>Risk Identification &amp; Assessment</h3>
+        <p>We map your risk universe and prioritise what matters most.</p>
+      </li>
+      <li class="step reveal">
+        <h3>Loss Prevention &amp; Assurance</h3>
+        <p>Controls that stop leakage and protect your assets.</p>
+      </li>
+      <li class="step reveal">
+        <h3>Accountability &amp; Governance</h3>
+        <p>Clear oversight structures and a culture of integrity.</p>
+      </li>
+      <li class="step reveal">
+        <h3>Measurable Value</h3>
+        <p>Practical, actionable recommendations with real impact.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact" id="contact" aria-labelledby="contact-title">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Contact</p>
+      <h2 id="contact-title">Let’s strengthen your organisation.</h2>
+      <p>Reach out for a confidential conversation about your risk, audit and compliance needs.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="info-card">
+          <h3>Location</h3>
+          <p class="loc" style="margin:0">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 005 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            Nairobi, Kenya
+          </p>
+        </div>
+        <div class="info-card">
+          <h3>Phone</h3>
+          <div class="phone-block">
+            <a class="phone-number" href="tel:+254700871926">+254 700 871 926</a>
+            <span class="phone-note">Calls, SMS and WhatsApp</span>
+            <div class="phone-actions">
+              <a class="btn btn-ghost btn-sm" href="tel:+254700871926">Call</a>
+              <a class="btn btn-wa btn-sm" href="https://wa.me/254700871926" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+            </div>
+          </div>
+          <div class="phone-block">
+            <a class="phone-number" href="tel:+254718786917">+254 718 786 917</a>
+            <span class="phone-note">Calls and SMS only</span>
+            <div class="phone-actions">
+              <a class="btn btn-ghost btn-sm" href="tel:+254718786917">Call</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-card reveal">
+        <h3>Request a consultation</h3>
+        <p class="sub">Complete the form and your details will be prepared as a WhatsApp message to our principal line.</p>
+        <form id="consultForm" novalidate>
+          <div class="form-grid">
+            <div class="field">
+              <label for="f-name">Full name <span class="req" aria-hidden="true">*</span></label>
+              <input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="e-name">
+              <span class="error-msg" id="e-name">Please enter your name.</span>
+            </div>
+            <div class="field">
+              <label for="f-email">Email <span class="req" aria-hidden="true">*</span></label>
+              <input id="f-email" name="email" type="email" autocomplete="email" required aria-describedby="e-email">
+              <span class="error-msg" id="e-email">Please enter a valid email address.</span>
+            </div>
+            <div class="field">
+              <label for="f-phone">Phone <span class="opt">(optional)</span></label>
+              <input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel">
+            </div>
+            <div class="field">
+              <label for="f-service">Service of interest <span class="req" aria-hidden="true">*</span></label>
+              <select id="f-service" name="service" required aria-describedby="e-service">
+                <option value="">Select a service</option>
+                <option>Data Protection &amp; Privacy Compliance</option>
+                <option>Kenya Data Protection Act &amp; ODPC</option>
+                <option>GDPR Readiness</option>
+                <option>DPIAs</option>
+                <option>Data Governance Frameworks</option>
+                <option>Risk-Based Internal Auditing</option>
+                <option>Enterprise Risk Management (ERM)</option>
+                <option>Forensic Investigations &amp; Fraud Prevention</option>
+                <option>Regulatory &amp; AML/CFT Compliance</option>
+                <option>Governance &amp; Policy Advisory</option>
+                <option>Internal Control Reviews</option>
+                <option>Other</option>
+              </select>
+              <span class="error-msg" id="e-service">Please choose a service.</span>
+            </div>
+            <div class="field full">
+              <label for="f-message">Message <span class="req" aria-hidden="true">*</span></label>
+              <textarea id="f-message" name="message" required aria-describedby="e-message"></textarea>
+              <span class="error-msg" id="e-message">Please tell us briefly how we can help.</span>
+            </div>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-gold">Open in WhatsApp</button>
+            <p class="form-note">This opens WhatsApp with your message prefilled. Nothing is sent until you press Send there.</p>
+          </div>
+          <div class="form-status" id="formStatus" role="status" aria-live="polite" tabindex="-1">
+            Your request has opened in WhatsApp. Please press <strong>Send</strong> in WhatsApp to deliver it — it has not been sent yet.
+            If nothing opened, <a id="waFallback" href="https://wa.me/254700871926" target="_blank" rel="noopener noreferrer">open WhatsApp here</a>.
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="#home" aria-label="RMO Consultancy, back to top" style="margin-bottom:14px">
+          <span class="monogram" aria-hidden="true">R</span>
+          <span>RMO <span class="light">Consultancy</span></span>
+        </a>
+        <p>Internal audit, risk management, governance, compliance and data protection advisory.</p>
+        <p class="founder-line">Founded &amp; led by Robert Ombego, CPA, CFIP</p>
+      </div>
+      <nav aria-label="Footer">
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#credentials">Credentials</a></li>
+          <li><a href="#approach">Our Approach</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h3>Get in Touch</h3>
+        <ul class="footer-contact">
+          <li>Nairobi, Kenya</li>
+          <li><a href="tel:+254700871926">+254 700 871 926</a> <span style="color:rgba(255,255,255,.55)">· Calls, SMS, WhatsApp</span></li>
+          <li><a href="tel:+254718786917">+254 718 786 917</a> <span style="color:rgba(255,255,255,.55)">· Calls and SMS only</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; <span id="year">2026</span> RMO Consultancy. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/254700871926" target="_blank" rel="noopener noreferrer" aria-label="Chat with RMO Consultancy on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 004.74 1.21c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm0 18.15c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 01-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 4.54 0 8.24 3.7 8.24 8.24s-3.7 8.24-8.24 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.23-.16-.48-.29z"/></svg>
+</a>
+
+<script>
+(function(){
+  'use strict';
+  var WA_NUMBER = '254700871926';
+  var root = document.documentElement;
+  root.classList.add('js');
+
+  /* Year */
+  var yr = document.getElementById('year');
+  if (yr) yr.textContent = new Date().getFullYear();
+
+  /* Mobile menu */
+  var toggle = document.getElementById('menuToggle');
+  var nav = document.getElementById('siteNav');
+  var mq = window.matchMedia('(max-width: 860px)');
+
+  function setMenu(open){
+    toggle.setAttribute('aria-expanded', String(open));
+    toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    nav.classList.toggle('open', open);
+  }
+  function syncNavA11y(){
+    /* On mobile, a closed menu is hidden via CSS visibility, so it is not focusable. */
+    if (!mq.matches) { nav.classList.remove('open'); toggle.setAttribute('aria-expanded','false'); toggle.setAttribute('aria-label','Open menu'); }
+  }
+  toggle.addEventListener('click', function(){
+    setMenu(toggle.getAttribute('aria-expanded') !== 'true');
+  });
+  nav.addEventListener('click', function(e){
+    if (e.target.closest('a')) setMenu(false);
+  });
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') {
+      setMenu(false); toggle.focus();
+    }
+  });
+  document.addEventListener('click', function(e){
+    if (toggle.getAttribute('aria-expanded') === 'true' && !e.target.closest('.site-header')) setMenu(false);
+  });
+  if (mq.addEventListener) mq.addEventListener('change', syncNavA11y); else if (mq.addListener) mq.addListener(syncNavA11y);
+  syncNavA11y();
+
+  /* Reveal on scroll */
+  var reveals = document.querySelectorAll('.reveal');
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if ('IntersectionObserver' in window && !reduce) {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }
+      });
+    }, { threshold: .12, rootMargin: '0px 0px -40px 0px' });
+    reveals.forEach(function(el){ io.observe(el); });
+  } else {
+    reveals.forEach(function(el){ el.classList.add('in'); });
+  }
+
+  /* Consultation form -> WhatsApp */
+  var form = document.getElementById('consultForm');
+  var status = document.getElementById('formStatus');
+  var fallback = document.getElementById('waFallback');
+
+  var fields = {
+    name: document.getElementById('f-name'),
+    email: document.getElementById('f-email'),
+    phone: document.getElementById('f-phone'),
+    service: document.getElementById('f-service'),
+    message: document.getElementById('f-message')
+  };
+
+  function validateField(input){
+    var wrap = input.closest('.field');
+    var value = input.value.trim();
+    var ok = true;
+    if (input.required) ok = value.length > 0;
+    if (ok && input.type === 'email') ok = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(value);
+    wrap.classList.toggle('invalid', !ok);
+    input.setAttribute('aria-invalid', String(!ok));
+    return ok;
+  }
+
+  ['name','email','service','message'].forEach(function(k){
+    var el = fields[k];
+    el.addEventListener('blur', function(){ validateField(el); });
+    el.addEventListener('input', function(){
+      if (el.closest('.field').classList.contains('invalid')) validateField(el);
+    });
+    el.addEventListener('change', function(){
+      if (el.closest('.field').classList.contains('invalid')) validateField(el);
+    });
+  });
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    status.classList.remove('show');
+
+    var firstInvalid = null;
+    ['name','email','service','message'].forEach(function(k){
+      if (!validateField(fields[k]) && !firstInvalid) firstInvalid = fields[k];
+    });
+    if (firstInvalid) { firstInvalid.focus(); return; }
+
+    var lines = [
+      'Hello RMO Consultancy, I would like to request a consultation.',
+      '',
+      'Name: ' + fields.name.value.trim(),
+      'Email: ' + fields.email.value.trim()
+    ];
+    var phone = fields.phone.value.trim();
+    if (phone) lines.push('Phone: ' + phone);
+    lines.push('Service of interest: ' + fields.service.value);
+    lines.push('');
+    lines.push('Message:');
+    lines.push(fields.message.value.trim());
+
+    var url = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(lines.join('\n'));
+    fallback.href = url;
+
+    var win = window.open(url, '_blank', 'noopener,noreferrer');
+    status.classList.add('show');
+    status.focus();
+    if (!win) {
+      /* Popup blocked: the fallback link in the confirmation carries the same prefilled message. */
+    }
+  });
+})();
+</script>
+</body>
+</html>
